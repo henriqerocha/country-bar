@@ -1,9 +1,16 @@
+.container-slideshow{
+  display: flex;
+  background: rgba(193, 169, 108, 0.4);
+  margin: 2px 0;
+}
 .slideshow {
   width: 100%;
-  max-width: 1080px; /* Largura máxima para o slide, pode ser ajustada conforme necessário */
+  max-width: 1180px; /* Largura máxima para o slide, pode ser ajustada conforme necessário */
+  height: 400px;
   margin: 0 auto; /* Centralizar o slide horizontalmente */
   position: relative;
   overflow: hidden;
+  
 }
 
 .slides-container {
@@ -17,7 +24,6 @@
 
 img {
   width: 100%; /* As imagens ocupam toda a largura do slide */
-  height: 400px; /* Mantém a proporção da imagem */
 }
 .prev-button{
   left: 5%;
