@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import './scripts';
 import Header from './componentes/header';
 import Carrousel from './componentes/carrousel';
 
