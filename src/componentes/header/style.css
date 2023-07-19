@@ -12,6 +12,8 @@
     height: 25vh;
     background: rgb(0,0,0);
     background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(26,22,17,1) 40%, rgba(42,35,26,1) 80%);
+    border-bottom: 3px solid #C0A863;
+    border-radius: 0 0 10px 10px;
 }
 .topo{
     display: flex;

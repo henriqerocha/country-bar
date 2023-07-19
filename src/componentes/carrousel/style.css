@@ -1,6 +1,6 @@
 .slideshow {
   width: 100%;
-  max-width: 800px; /* Largura máxima para o slide, pode ser ajustada conforme necessário */
+  max-width: 1080px; /* Largura máxima para o slide, pode ser ajustada conforme necessário */
   margin: 0 auto; /* Centralizar o slide horizontalmente */
   position: relative;
   overflow: hidden;
@@ -17,20 +17,20 @@
 
 img {
   width: 100%; /* As imagens ocupam toda a largura do slide */
-  height: auto; /* Mantém a proporção da imagem */
+  height: 400px; /* Mantém a proporção da imagem */
 }
 .prev-button{
-  left: 10%;
+  left: 5%;
 }
 .next-button{
-  right: 10%;
+  right: 5%;
 }
 .prev-button, .next-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   padding: 10px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
   border: none;
   cursor: pointer;
@@ -41,6 +41,7 @@ img {
 
 .prev-button:hover, .next-button:hover {
 background-color: rgba(0, 0, 0, 0.7);
+color: #fff;
 }
 
 .next-btn {
