@@ -16,8 +16,8 @@ export default function Carrousel(){
                 </div>
                     {/* <!-- Você pode adicionar mais imagens aqui, o layout não será quebrado --> */}
             </div>        
-    <button class="prev-btn">Anterior</button>
-    <button class="next-btn">Próximo</button>
+            <button class="prev-button">&#10094;</button>
+            <button class="next-button">&#10095;</button>
   </div>
     );
 }

@@ -19,15 +19,28 @@ img {
   width: 100%; /* As imagens ocupam toda a largura do slide */
   height: auto; /* Mantém a proporção da imagem */
 }
-
-button {
+.prev-button{
+  left: 10%;
+}
+.next-button{
+  right: 10%;
+}
+.prev-button, .next-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: #fff;
-  padding: 8px 16px;
-  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  border: none;
   cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.prev-button:hover, .next-button:hover {
+background-color: rgba(0, 0, 0, 0.7);
 }
 
 .next-btn {
