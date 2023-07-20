@@ -54,6 +54,9 @@ const MeuComponente = () => {
                     <div className="slide">
                         <img src="./assets/bebida3.jpg" alt="Imagem 3"></img>
                     </div>
+                    <div className="slide">
+                        <img src="./assets/bebida4.webp" alt="Imagem 4"></img>
+                    </div>
                         {/* <!-- Você pode adicionar mais imagens aqui, o layout não será quebrado --> */}
                 </div>        
                     <button className="prev-button">&#10094;</button>
