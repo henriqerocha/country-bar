@@ -47,9 +47,18 @@
     font-size: 1.3em;
     padding: 15px;
     border-radius: 10px;
+    position: relative;
 }
-.lista-item a:hover{
+.lista-item a::after{
+    content: " ";
+    width: 0%;
+    height: 4px;
     background-color: #C0A863;
-    color: #000;
-    transition: all .5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 1s ease-in-out;
+}
+.lista-item a:hover::after{
+    width: 100%;
 }

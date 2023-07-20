@@ -8,7 +8,9 @@ export default function Bebidas(){
                 <div className='titulo-section'>
                     <h2>Bebidas</h2>
                     <p>Nós temos as melhores bebidas e mais emocionantes para sua festa, entre em contato agora mesmo e faça seu orçamento.</p>
-                    <a href='https://www.google.com.br' className='btn-orcamento'>Solicitar orçamento</a>
+                    <div className='button'>
+                        <a href='https://www.google.com.br' className='btn-orcamento'>Solicitar orçamento</a>
+                    </div>
                 </div>
                     
                 <div className='content-cards'>
