@@ -4,6 +4,8 @@ import Bebidas from '../bebidas';
 
 export default function Conteudo(){
     return(
-        <Bebidas/>
+        <main>
+            <Bebidas/>
+        </main>
     );
 }
