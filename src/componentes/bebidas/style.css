@@ -6,11 +6,83 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
     padding: 40px 0;
     background-color: rgba(190, 168, 110, 0.7);
+}
+.container-bebidas{
+    width: 100%;
+    max-width: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h2{
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
     text-transform: uppercase;
+}
+.titulo-section{
+    text-align: center;
+}
+.titulo-section p{
+    margin-bottom: 100px;
+}
+.btn-orcamento{
+    text-decoration: none;
+    color: black;
+    background-color: #ffbb00;
+    border-radius: 10px;
+    padding: 15px 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+.btn-orcamento:hover{
+    background-color: black;
+    color: red;
+}
+
+
+
+.content-cards{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.card-bebidas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    margin: 5% 0;
+    border-bottom: 3px solid #98895d36;
+}
+.img-bebida{
+    width: 400px;
+}
+.img-bebida img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.descricao-bebida{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+.descricao-bebida h3{
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+}
+.descricao-bebida li{
+    font-family: 'exo', cursive;
+}
+.row-reverse{
+    flex-direction: row-reverse;
 }
