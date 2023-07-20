@@ -22,20 +22,63 @@ h2{
     font-family: 'Dancing Script', cursive;
     font-size: 2.5em;
     text-transform: uppercase;
-    margin: 100px 0;
+    margin: 80px 0;
+    position: relative;
 }
+
+h2::after{
+    content: '';
+    width: 40%;
+    height: 4px;
+    border-radius: 15px;
+    background-color: #BF8E00;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: -5px 0;
+}
+h2::before{
+    content: '';
+    width: 70%;
+    height: 4px;
+    border-radius: 15px;
+    background-color: #BF8E00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: -5px 0;
+}
+@keyframes animaBorda{
+    from{
+        width: 0;
+    }
+    to{
+        width: 70%;
+    }
+}
+
+
+
 .titulo-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
+    flex-direction: column;
+}
+.titulo-section img{
+    width: 45px;
 }
 p{
     font-family: 'exo', cursive;
+    width: 80%;
 }
 .button{
-    margin: 100px 0;
+    margin: 50px 0;
     transition: 1s ease-in-out;
 }
 .button:hover{
-    scale: 1.2;
+    scale: 1.1;
 }
 .btn-orcamento{
     text-decoration: none;
@@ -75,7 +118,8 @@ p{
     border: 1px solid #beaf80;
     box-shadow: 5px 5px 5px #837859;
     transition: 1s ease;
-    background-color: #1A1611;
+    background: rgb(0,0,0);
+    background: linear-gradient(135deg, rgba(0,0,0,1) 0%, rgba(26,22,17,1) 40%, rgba(42,35,26,1) 80%);
     color: #BF8E00;
 }
 .card-bebidas:hover{

@@ -6,8 +6,9 @@ export default function Bebidas(){
         <section id='bebidas'>
             <div className='container-bebidas'>
                 <div className='titulo-section'>
-                    <h2>Bebidas</h2>
-                    <p>Nós temos as melhores bebidas e mais emocionantes para sua festa, entre em contato agora mesmo e faça seu orçamento.</p>
+                    <h2>Bebidas <img src='./assets/bebidas-emoticon.png'></img></h2>
+                    <p>Nós temos as melhores e mais emocionantes bebidas para sua festa, veja algumas das nossas principais bebidas abaixo. Ah, e tem muito mais!!!</p>
+                    <p>Solicite já nosso orçamento para seu evento.</p>
                     <div className='button'>
                         <a href='https://www.google.com.br' className='btn-orcamento'>Solicitar orçamento</a>
                     </div>
@@ -76,7 +77,6 @@ export default function Bebidas(){
                     
                 </div>
             </div>
-            
             
         </section>
     );
