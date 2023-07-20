@@ -22,9 +22,9 @@ export default function Bebidas(){
                         <div className='descricao-bebida'>
                             <h3>Caipirinha</h3>
                             <ul>
-                                <li>item 1</li>
-                                <li>item 2</li>
-                                <li>item 3</li>
+                                <li>Cachaça 51</li>
+                                <li>Açucar</li>
+                                <li>Gelo</li>
                             </ul>
                         </div>
                         
@@ -37,9 +37,9 @@ export default function Bebidas(){
                         <div className='descricao-bebida'>
                             <h3>Caipirinha</h3>
                             <ul>
-                                <li>item 1</li>
-                                <li>item 2</li>
-                                <li>item 3</li>
+                                <li>Cachaça 51</li>
+                                <li>Açucar</li>
+                                <li>Gelo</li>
                             </ul>
                         </div>
                         
@@ -52,9 +52,9 @@ export default function Bebidas(){
                         <div className='descricao-bebida'>
                             <h3>Caipirinha</h3>
                             <ul>
-                                <li>item 1</li>
-                                <li>item 2</li>
-                                <li>item 3</li>
+                                <li>Cachaça 51</li>
+                                <li>Açucar</li>
+                                <li>Gelo</li>
                             </ul>
                         </div>
                         
@@ -67,9 +67,9 @@ export default function Bebidas(){
                         <div className='descricao-bebida'>
                             <h3>Caipirinha</h3>
                             <ul>
-                                <li>item 1</li>
-                                <li>item 2</li>
-                                <li>item 3</li>
+                                <li>Cachaça 51</li>
+                                <li>Açucar</li>
+                                <li>Gelo</li>
                             </ul>
                         </div>
                         
