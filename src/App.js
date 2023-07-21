@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import './scripts';
 import Header from './componentes/header';
-import Carrousel from './componentes/carrousel';
 import Conteudo from './componentes/conteudo';
+import Footer from './componentes/footer';
 
 function App() {
   
@@ -14,8 +14,8 @@ function App() {
             </aside>
             
       <Header/>
-      <Carrousel/>
       <Conteudo/>
+      <Footer/>
       
     </div>
   );
