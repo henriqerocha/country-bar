@@ -6,7 +6,10 @@
     width: 100%;
     margin: 0 auto;
     padding: 40px 0;
-    background-color: rgba(190, 168, 110, 0.7);
+    background-color: #f1f1f1;
+    /* 
+    SEGUNDA OPÇÃO DE COR
+    background-color: rgba(190, 168, 110, 0.7); */
 }
 .container-bebidas{
     width: 100%;
@@ -55,7 +58,7 @@
     margin: 2% 0;
     padding: 15px;
     border-radius: 25px;
-    border: 1px solid #beaf80;
+    border: 2px solid #BF8E00;
     box-shadow: 5px 5px 5px #837859;
     transition: 1s ease;
     background: rgb(0,0,0);

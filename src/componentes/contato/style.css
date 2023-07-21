@@ -1,0 +1,11 @@
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.contato-emoticon{
+    width: 40px;
+}
