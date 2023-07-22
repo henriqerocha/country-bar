@@ -17,6 +17,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    margin: 3% 0;
 }
 .form-container{
     display: flex;
@@ -103,4 +104,13 @@ textarea::placeholder{
     left: 12px;
     color: #836302;
     font-weight: bold;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 768px){
+    .form-contato{
+        width: 90%;
+    }
 }

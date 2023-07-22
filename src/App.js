@@ -9,10 +9,6 @@ function App() {
   
   return (
     <div className="container">
-      <aside className='icone-contato'>
-                <img src='./assets/wpp-icon.png'></img>
-            </aside>
-            
       <Header/>
       <Conteudo/>
       <Footer/>

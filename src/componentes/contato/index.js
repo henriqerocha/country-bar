@@ -44,12 +44,12 @@ export default function Contato(){
                     <form className='form-contato' onSubmit={sendEmail}>
                         <div className='box-input'>
                             <label className="input-label" htmlFor="nome">Nome:</label>
-                            <input className="input-button" type="text" id="nome" value={nome} onChange={(e) => setNome(e.target.value)} required />
+                            <input className="input-button" type="text" id="nome" placeholder="Ex: Fulano Rocha" value={nome} onChange={(e) => setNome(e.target.value)} required />
                         </div>
 
                         <div className='box-input'>
                             <label className="input-label" htmlFor="telefone">Telefone:</label>
-                             <input className="input-button" type="tel" id="telefone" pattern="[0-9]*" maxLength={11} value={telefone} onChange={(e) => setTelefone(e.target.value)} required />
+                             <input className="input-button" type="tel" id="telefone" pattern="[0-9]*" maxLength={11} placeholder="Ex: 61999999999" value={telefone} onChange={(e) => setTelefone(e.target.value)} required />
                         </div>
 
                         <div className='box-input'>

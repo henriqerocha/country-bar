@@ -66,7 +66,7 @@
     color: #BF8E00;
 }
 .card-bebidas:hover{
-    scale: 1.2;
+    scale: 1.1;
 }
 .img-bebida{
     width: 400px;
@@ -92,4 +92,15 @@
 }
 .row-reverse{
     flex-direction: row-reverse;
+}
+
+
+/* Media Queries */
+
+@media (max-width: 1000px){
+    .card-bebidas{
+        height: 500px;
+    }
+    .img-bebida img{
+    }
 }
