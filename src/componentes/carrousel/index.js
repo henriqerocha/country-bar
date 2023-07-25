@@ -46,16 +46,16 @@ const MeuComponente = () => {
             <div className="slideshow">
                 <div className="slides-container">
                     <div className="slide">
-                        <img src="./assets/bebida1.jpg" alt="Imagem 1"></img>
+                        <img src="./assets/bebida1.webp" alt="slide um"></img>
                     </div>
                     <div className="slide">
-                        <img src="./assets/bebida2.jpg" alt="Imagem 2"></img>
+                        <img src="./assets/bebida2.webp" alt="slide dois"></img>
                     </div>
                     <div className="slide">
-                        <img src="./assets/bebida3.jpg" alt="Imagem 3"></img>
+                        <img src="./assets/bebida3.webp" alt="slide tres"></img>
                     </div>
                     <div className="slide">
-                        <img src="./assets/bebida4.webp" alt="Imagem 4"></img>
+                        <img src="./assets/bebida4.webp" alt="slide quatro"></img>
                     </div>
                         {/* <!-- Você pode adicionar mais imagens aqui, o layout não será quebrado --> */}
                 </div>        
