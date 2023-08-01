@@ -6,7 +6,7 @@
 .slideshow {
   width: 100%;
   max-width: 1080px; /* Largura máxima para o slide, pode ser ajustada conforme necessário */
-  height: 400px;
+  height: 28rem;
   margin: 0 auto; /* Centralizar o slide horizontalmente */
   position: relative;
   overflow: hidden;
@@ -25,6 +25,7 @@
 img {
   width: 100%; /* As imagens ocupam toda a largura do slide */
   height: 100%;
+  object-fit: fill;
 }
 
 .prev-button{
