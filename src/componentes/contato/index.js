@@ -37,7 +37,7 @@ export default function Contato(){
         <section id='contato'>
             <div className='container-contato'>
                 <div className='titulo-contato'>
-                    <h2>Contato <img src='./assets/contato-emoticon.png' className='contato-emoticon'></img></h2>
+                    <h2>Contato <img src='./assets/contato-emoticon.webp' className='contato-emoticon' alt="emoticon-email"></img></h2>
                 </div>
 
                 <div className='form-container'>
