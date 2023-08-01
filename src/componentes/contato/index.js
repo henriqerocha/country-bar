@@ -18,12 +18,12 @@ export default function Contato(){
             message: duvida,
             telefone: telefone
         }
-        emailjs.send("service_vgc72b3", "template_nkdr5pq", templateParams, "Uf0zwecCiDJTp3D1o")
+        emailjs.send("service_44tvd9h", "template_cwb37ds", templateParams, "kbosAvSbY0ejGEYxY")
         .then((response) =>{
             if(response.status === 200){
                 alert("Email enviado enviado com Sucesso!")
             } else{
-                alert("Ops, ocorreu algum erro, envie a mensagem para countrybar@gmail.com")
+                alert("Ops, ocorreu algum erro, envie a mensagem para countrybardrinks@gmail.com")
             }
             console.log("EMAIL ENVIADO", response.status, response.text)
             setNome('')
@@ -50,8 +50,8 @@ export default function Contato(){
                         </div>
 
                         <div className='box-input'>
-                            <label className="input-label" htmlFor="telefone">Telefone:</label>
-                             <input className="input-button" type="tel" id="telefone" pattern="[0-9]*" maxLength={11} placeholder="Ex: 61999999999" value={telefone} onChange={(e) => setTelefone(e.target.value)} required />
+                            <label className="input-label" htmlFor="telefone">Telefone com DDD:</label>
+                             <input className="input-button" type="tel" id="telefone" pattern="[0-9]*" maxLength={12} minLength={9} placeholder="Ex: 61999999999" value={telefone} onChange={(e) => setTelefone(e.target.value)} required />
                         </div>
 
                         <div className='box-input'>

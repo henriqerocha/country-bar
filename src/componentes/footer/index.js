@@ -11,6 +11,7 @@ export default function Footer(){
             <div className='container-footer'>
                 <div className='left-footer'>
                     <span>@countrybardrinkss</span>
+                    <span>countrybardrinks@gmail.com</span>
                 </div>
                 <div className='right-footer'>
                     <div className='wpp'>
