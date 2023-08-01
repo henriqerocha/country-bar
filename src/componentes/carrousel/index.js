@@ -1,5 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './style.css';
+import bebida1slide from '../../assets/bebida1.webp';
+import bebida2slide from '../../assets/bebida2.webp';
+import bebida3slide from '../../assets/bebida3.webp';
+import bebida4slide from '../../assets/bebida4.webp';
 
 const Carrousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -63,16 +67,16 @@ const Carrousel = () => {
       <div className="slideshow">
         <div className="slides-container">
           <div className="slide">
-            <img src="./assets/bebida1.webp" alt="slide um"></img>
+            <img src={bebida1slide} alt="slide um"></img>
           </div>
           <div className="slide">
-            <img src="./assets/bebida2.webp" alt="slide dois"></img>
+            <img src={bebida2slide} alt="slide dois"></img>
           </div>
           <div className="slide">
-            <img src="./assets/bebida3.webp" alt="slide tres"></img>
+            <img src={bebida3slide} alt="slide tres"></img>
           </div>
           <div className="slide">
-            <img src="./assets/bebida4.webp" alt="slide quatro"></img>
+            <img src={bebida4slide} alt="slide quatro"></img>
           </div>
           {/* <!-- Você pode adicionar mais imagens aqui, o layout não será quebrado --> */}
         </div>

@@ -1,12 +1,18 @@
 import React from 'react';
 import './style.css';
 
+import bebida1 from "../../assets/bebida-1.webp";
+import bebida2 from "../../assets/bebida-2.webp";
+import bebida3 from "../../assets/bebida-3.webp";
+import bebida4 from "../../assets/bebida-4.webp";
+import bebidaemoticon from "../../assets/bebidas-emoticon.webp";
+
 export default function Bebidas(){
     return(
         <section id='bebidas'>
             <div className='container-bebidas'>
                 <div className='titulo-section'>
-                    <h2>Drinks <img src='./assets/bebidas-emoticon.webp' alt='Emoticon beebidas'></img></h2>
+                    <h2>Drinks <img src={bebidaemoticon} alt='Emoticon beebidas'></img></h2>
                     <p>Nós temos os melhores e mais saborosos drinks para seu evento, veja alguns de nossos principais drinks abaixo. Ah, e tem muito mais!!!</p>
                     <p>Solicite já nosso orçamento para seu evento.</p>
                     <div className='button'>
@@ -17,7 +23,7 @@ export default function Bebidas(){
                 <div className='content-cards'>
                     <div className='card-bebidas'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida-1.webp'></img>  
+                            <img src={bebida1} alt='Bebida Pina Colada'/>  
                         </div>
                         <div className='descricao-bebida'>
                             <h3>Pina Colada</h3>
@@ -34,7 +40,7 @@ export default function Bebidas(){
 
                     <div className='card-bebidas row-reverse'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida-2.webp'></img>  
+                            <img src={bebida2} alt='Bebida Pina Colada'/>    
                         </div>
                         <div className='descricao-bebida'>
                             <h3>Fresh Green</h3>
@@ -51,7 +57,7 @@ export default function Bebidas(){
 
                     <div className='card-bebidas'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida-3.webp'></img>  
+                            <img src={bebida3} alt='Bebida Pina Colada'/>     
                         </div>
                         <div className='descricao-bebida'>
                             <h3>Mojito</h3>
@@ -69,7 +75,7 @@ export default function Bebidas(){
 
                     <div className='card-bebidas row-reverse'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida-4.webp'></img>  
+                            <img src={bebida4} alt='Bebida Pina Colada'/>    
                         </div>
                         <div className='descricao-bebida'>
                             <h3>Atlântico</h3>

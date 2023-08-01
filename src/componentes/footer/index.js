@@ -1,6 +1,10 @@
 import React from 'react';
 import './style.css';
 
+import iconewppamarelo from '../../assets/icone-wpp-amarelo.webp';
+import iconeinstaamarelo from '../../assets/icone-insta-amarelo.webp';
+import iconeemailamarelo from '../../assets/icone-email-amarelo.webp';
+
 export default function Footer(){
     return(
         <footer>
@@ -10,13 +14,13 @@ export default function Footer(){
                 </div>
                 <div className='right-footer'>
                     <div className='wpp'>
-                    <a href='https://api.whatsapp.com/send?phone=5561991380680&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Open%20Bar%20%F0%9F%8D%B9%20Meu%20evento%20%C3%A9%20dia%20:%20Quantidade%20de%20convidados%20:%20%20Local:%20%20Hor%C3%A1rio:%20Tipo%20de%20evento%20:%20Obs:' target='_blank'><img src='./assets/icone-wpp-amarelo.webp' alt='icone whatsapp amarelo'></img></a>
+                    <a href='https://wa.link/q8kd44' target='_blank'><img src={iconewppamarelo} alt='icone whatsapp amarelo'></img></a>
                     </div>
                     <div className='insta'>
-                    <a href='https://www.instagram.com/countrybardrinkss' target='_blank'><img src='./assets/icone-insta-amarelo.webp' alt='icone instagram amarelo'></img></a>
+                    <a href='https://www.instagram.com/countrybardrinkss' target='_blank'><img src={iconeinstaamarelo} alt='icone instagram amarelo'></img></a>
                     </div>
                     <div className='email'>
-                    <a href='mailto: countrybardrinks@gmail.com' target='_blank'><img src='./assets/icone-email-amarelo.webp' alt='icone email amarelo'></img></a>
+                    <a href='mailto: countrybardrinks@gmail.com' target='_blank'><img src={iconeemailamarelo} alt='icone email amarelo'></img></a>
                     </div>
                 </div>
             </div>

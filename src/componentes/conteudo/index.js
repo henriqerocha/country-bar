@@ -5,13 +5,15 @@ import Carrousel from '../carrousel';
 import Sobre from '../sobre';
 import Contato from '../contato';
 
+import iconewpp from '../../assets/wpp-icon.webp';
+
 export default function Conteudo(){
     return(
         
         <main>
             <aside className='icone-contato'>
 
-                <a href='https://wa.link/q8kd44' target='_blank'><img src='./assets/wpp-icon.png'></img></a>
+                <a href='https://wa.link/q8kd44' target='_blank'><img src={iconewpp}></img></a>
 
 
             </aside>

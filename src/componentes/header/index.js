@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './style.css'
 
+import logo from '../../assets/logo-menor-png.webp';
+
 
 export default function Header(){
 
@@ -16,7 +18,7 @@ export default function Header(){
         <header className='container-header'>
             <div className='topo'>
                 <div className='logo'>
-                    <img src='./assets/logo-menor-png.webp' alt='logo country bar'></img>
+                    <img src={logo} alt='logo country bar'></img>
                 </div>
                 <nav className='menu'>
                     <button className='btn-mobile' onClick={toggleMenu}>
