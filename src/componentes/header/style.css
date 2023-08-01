@@ -86,16 +86,19 @@
    .lista{
     display: block;
     position: absolute;
-    top: 90px;
-    width: 50%;
+    top: 100px;
+    width: 40%;
     height: 0px;
-    background-color: rgba(191, 142, 0, 0.8);
-    padding: 30px 0;
+    background-color: rgba(191, 142, 0, 1);
+    padding: 10px 0;
     z-index: 99;
-    border-radius: 15px;
+    border-radius: .5rem;
     transition: .6s;
     visibility: hidden;
     overflow-y: hidden;
+   }
+   .logo{
+    margin: 0 auto;
    }
    .lista-item{
     border-bottom: 2px solid rgba(104, 85, 58, 0.3);

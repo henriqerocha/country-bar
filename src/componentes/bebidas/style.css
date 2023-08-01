@@ -34,7 +34,7 @@
     padding: 15px 25px;
     cursor: pointer;
     border: .5 solid #000;
-    box-shadow: 5px 5px 5px #837859;
+    box-shadow: 2px 2px 45px 15px #ffcf49;
     font-family: 'exo', cursive;
     font-weight: 600;
 }
@@ -69,7 +69,7 @@
     scale: 1.1;
 }
 .img-bebida{
-    width: 400px;
+    width: 25%;
 }
 .img-bebida img{
     width: 100%;
@@ -96,7 +96,11 @@
 
 
 /* Media Queries */
-
+@media (max-width: 475px){
+    .img-bebida{
+        width: 65%;
+    }
+}
 @media (max-width: 1000px){
     .card-bebidas{
         height: 500px;

@@ -6,25 +6,27 @@ export default function Bebidas(){
         <section id='bebidas'>
             <div className='container-bebidas'>
                 <div className='titulo-section'>
-                    <h2>Bebidas <img src='./assets/bebidas-emoticon.png'></img></h2>
-                    <p>Nós temos as melhores e mais emocionantes bebidas para sua festa, veja algumas das nossas principais bebidas abaixo. Ah, e tem muito mais!!!</p>
+                    <h2>Drinks <img src='./assets/bebidas-emoticon.png'></img></h2>
+                    <p>Nós temos os melhores e mais saborosos drinks para seu evento, veja alguns de nossos principais drinks abaixo. Ah, e tem muito mais!!!</p>
                     <p>Solicite já nosso orçamento para seu evento.</p>
                     <div className='button'>
-                        <a href='https://www.google.com.br' className='btn-orcamento'>Solicitar orçamento</a>
+                        <a href='https://wa.link/q8kd44' target='_blank' className='btn-orcamento'>Solicitar orçamento</a>
                     </div>
                 </div>
                     
                 <div className='content-cards'>
                     <div className='card-bebidas'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida1.jpg'></img>  
+                            <img src='./assets/bebida-1.webp'></img>  
                         </div>
                         <div className='descricao-bebida'>
-                            <h3>Caipirinha</h3>
+                            <h3>Pina Colada</h3>
                             <ul>
-                                <li>Cachaça 51</li>
-                                <li>Açucar</li>
+                                <li>Rum</li>
                                 <li>Gelo</li>
+                                <li>Suco de abacaxi</li>
+                                <li>Leite de coco</li>
+                                <li>Leite condensado</li>
                             </ul>
                         </div>
                         
@@ -32,14 +34,16 @@ export default function Bebidas(){
 
                     <div className='card-bebidas row-reverse'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida2.jpg'></img>  
+                            <img src='./assets/bebida-2.webp'></img>  
                         </div>
                         <div className='descricao-bebida'>
-                            <h3>Caipirinha</h3>
+                            <h3>Fresh Green</h3>
                             <ul>
-                                <li>Cachaça 51</li>
-                                <li>Açucar</li>
+                                <li>Vodka</li>
                                 <li>Gelo</li>
+                                <li>Licor de menta</li>
+                                <li>Limão</li>
+                                <li>Schweppes</li>
                             </ul>
                         </div>
                         
@@ -47,14 +51,17 @@ export default function Bebidas(){
 
                     <div className='card-bebidas'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida3.jpg'></img>  
+                            <img src='./assets/bebida-3.webp'></img>  
                         </div>
                         <div className='descricao-bebida'>
-                            <h3>Caipirinha</h3>
+                            <h3>Mojito</h3>
                             <ul>
-                                <li>Cachaça 51</li>
-                                <li>Açucar</li>
+                                <li>Rum</li>
                                 <li>Gelo</li>
+                                <li>Hortelã</li>
+                                <li>Limão</li>
+                                <li>Açúcar refinado</li>
+                                <li>Água com gás</li>
                             </ul>
                         </div>
                         
@@ -62,14 +69,16 @@ export default function Bebidas(){
 
                     <div className='card-bebidas row-reverse'>
                         <div className='img-bebida'>
-                            <img src='./assets/bebida4.jpg'></img>  
+                            <img src='./assets/bebida-4.webp'></img>  
                         </div>
                         <div className='descricao-bebida'>
-                            <h3>Caipirinha</h3>
+                            <h3>Atlântico</h3>
                             <ul>
-                                <li>Cachaça 51</li>
-                                <li>Açucar</li>
+                                <li>Vodka</li>
                                 <li>Gelo</li>
+                                <li>Suco de Limão</li>
+                                <li>Curaçau blue</li>
+                                <li>Refrigerante de Limão</li>
                             </ul>
                         </div>
                         
